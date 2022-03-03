@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoundryYuk</string>
+    <string name="login">Login</string>
+    <string name="lupa_password">Lupa Password</string>
+    <string name="masukkan_email_anda">Masukkan Email Anda</string>
+    <string name="email">Email</string>
+    <string name="kirim_kode">Kirim Kode</string>
+</resources>
