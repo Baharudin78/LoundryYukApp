@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeFragment2"
+        android:title="@string/cabang"
+        android:visible="true"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+
+    <item android:id="@+id/transaksiFragment"
+        android:title="@string/transaksi"
+        android:visible="true"
+        android:icon="@drawable/ic_baseline_compare_arrows_24"/>
+
+    <item android:id="@+id/karyawanFragment"
+        android:visible="true"
+        android:title="@string/karyawan"
+        android:icon="@drawable/ic_baseline_supervisor_account_24"/>
+
+    <item android:id="@+id/settingFragment"
+        android:title="@string/setting"
+        android:visible="true"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+</menu>

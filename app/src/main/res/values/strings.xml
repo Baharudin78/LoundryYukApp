@@ -5,4 +5,11 @@
     <string name="masukkan_email_anda">Masukkan Email Anda</string>
     <string name="email">Email</string>
     <string name="kirim_kode">Kirim Kode</string>
+    <string name="tambah_cabang">Tambah Cabang</string>
+    <string name="masukkan_cabang">Masukkan Cabang</string>
+    <string name="cabang">Cabang</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="karyawan">Karyawan</string>
+    <string name="setting">Setting</string>
+    <string name="selamat_datang">Selamat Datang</string>
 </resources>

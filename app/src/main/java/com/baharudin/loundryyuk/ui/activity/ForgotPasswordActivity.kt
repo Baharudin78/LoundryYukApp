@@ -1,4 +1,4 @@
-package com.baharudin.loundryyuk.ui
+package com.baharudin.loundryyuk.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

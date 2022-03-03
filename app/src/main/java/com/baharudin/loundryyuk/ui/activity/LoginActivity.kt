@@ -1,4 +1,4 @@
-package com.baharudin.loundryyuk.ui
+package com.baharudin.loundryyuk.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -17,6 +17,10 @@ class LoginActivity : AppCompatActivity() {
         binding.tvLupaPassword.setOnClickListener {
             val lupaPw = Intent(this, ForgotPasswordActivity::class.java)
             startActivity(lupaPw)
+        }
+        binding.loginButton.setOnClickListener {
+            val intentLogin = Intent(this, CabangActivity::class.java)
+            startActivity(intentLogin)
         }
     }
 }
