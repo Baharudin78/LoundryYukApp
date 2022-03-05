@@ -1,7 +1,8 @@
 package com.baharudin.loundryyuk.util
 
-sealed class Result<T>(val data : T? = null, val messege : String? = null) {
-    class Succes<T>(data: T?, messege: String?) : Result<T>(data, messege)
-    class Error<T>(messege: String?, data: T? = null) : Result<T>(data, messege)
-    class Loading<T> : Result<T>()
+sealed class Result<T>(val data:T? = null, val errorMessage:String?= null){
+    class Success<T>(data:T,errorMessage: String? =null):Result<T>(data,errorMessage)
+    class Error<T>(errorMessage: String,data: T? = null):Result<T>(data,errorMessage)
+    class Loading<T>:Result<T>()
+
 }

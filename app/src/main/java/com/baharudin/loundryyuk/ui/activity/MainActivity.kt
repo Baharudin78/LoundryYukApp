@@ -6,7 +6,10 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.baharudin.loundryyuk.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {

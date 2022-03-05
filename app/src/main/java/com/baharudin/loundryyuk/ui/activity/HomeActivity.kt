@@ -8,7 +8,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.baharudin.loundryyuk.R
 import com.baharudin.loundryyuk.databinding.ActivityHomeBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding : ActivityHomeBinding
     private lateinit var navController: NavController

@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.baharudin.loundryyuk.R
 import com.baharudin.loundryyuk.databinding.ActivityCabangBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class CabangActivity : AppCompatActivity() {
 
     private lateinit var binding :ActivityCabangBinding
