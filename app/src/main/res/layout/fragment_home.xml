@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/blue_500"
-    tools:context=".ui.fragment.HomeFragment">
+    tools:context=".presentation.fragment.HomeFragment">
 
     <TextView
         android:id="@+id/textView3"

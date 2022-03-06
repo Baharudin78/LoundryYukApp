@@ -12,4 +12,7 @@
     <string name="karyawan">Karyawan</string>
     <string name="setting">Setting</string>
     <string name="selamat_datang">Selamat Datang</string>
+    <string name="button_text_ok">Berhasil</string>
+    <string name="error_email_not_valid">email is not valid</string>
+    <string name="error_password_not_valid">password at least 8 character</string>
 </resources>

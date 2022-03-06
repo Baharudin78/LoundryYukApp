@@ -13,19 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoundryYuk">
         <activity
-            android:name=".ui.activity.HomeActivity"
+            android:name=".presentation.activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activity.ForgotPasswordActivity"
+            android:name=".presentation.activity.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activity.CabangActivity"
+            android:name=".presentation.activity.CabangActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activity.LoginActivity"
+            android:name=".presentation.login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activity.MainActivity"
+            android:name=".presentation.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

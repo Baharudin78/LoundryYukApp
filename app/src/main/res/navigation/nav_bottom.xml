@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/homeFragment2"
-        android:name="com.baharudin.loundryyuk.ui.fragment.HomeFragment"
+        android:name="com.baharudin.loundryyuk.presentation.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/karyawanFragment"
-        android:name="com.baharudin.loundryyuk.ui.fragment.KaryawanFragment"
+        android:name="com.baharudin.loundryyuk.presentation.fragment.KaryawanFragment"
         android:label="fragment_karyawan"
         tools:layout="@layout/fragment_karyawan" />
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.baharudin.loundryyuk.ui.fragment.SettingFragment"
+        android:name="com.baharudin.loundryyuk.presentation.fragment.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" />
     <fragment
         android:id="@+id/transaksiFragment"
-        android:name="com.baharudin.loundryyuk.ui.fragment.TransaksiFragment"
+        android:name="com.baharudin.loundryyuk.presentation.fragment.TransaksiFragment"
         android:label="fragment_transaksi"
         tools:layout="@layout/fragment_transaksi" />
 </navigation>
