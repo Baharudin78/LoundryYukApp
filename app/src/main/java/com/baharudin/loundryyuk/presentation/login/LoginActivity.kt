@@ -3,8 +3,6 @@ package com.baharudin.loundryyuk.presentation.login
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.lifecycle.Lifecycle
@@ -15,7 +13,7 @@ import com.baharudin.loundryyuk.databinding.ActivityLoginBinding
 import com.baharudin.loundryyuk.datasource.remote.login.remote.dto.LoginRequest
 import com.baharudin.loundryyuk.datasource.remote.login.remote.dto.LoginResponse
 import com.baharudin.loundryyuk.domain.login.entity.LoginEntity
-import com.baharudin.loundryyuk.presentation.activity.CabangActivity
+import com.baharudin.loundryyuk.presentation.cabang.CabangActivity
 import com.baharudin.loundryyuk.presentation.activity.ForgotPasswordActivity
 import com.baharudin.loundryyuk.presentation.common.extention.isEmail
 import com.baharudin.loundryyuk.presentation.common.extention.showGenericAlertDialog
@@ -25,7 +23,6 @@ import com.baharudin.loundryyuk.util.WrapperResponse
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @AndroidEntryPoint

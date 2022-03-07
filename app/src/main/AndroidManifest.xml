@@ -19,7 +19,7 @@
             android:name=".presentation.activity.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.activity.CabangActivity"
+            android:name=".presentation.cabang.CabangActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.login.LoginActivity"

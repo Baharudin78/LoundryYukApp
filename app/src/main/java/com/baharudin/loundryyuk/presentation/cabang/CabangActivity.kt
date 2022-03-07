@@ -1,9 +1,10 @@
-package com.baharudin.loundryyuk.presentation.activity
+package com.baharudin.loundryyuk.presentation.cabang
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.baharudin.loundryyuk.databinding.ActivityCabangBinding
+import com.baharudin.loundryyuk.presentation.activity.HomeActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
